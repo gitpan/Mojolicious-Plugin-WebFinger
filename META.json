@@ -1,0 +1,55 @@
+{
+   "abstract" : "Serve and Retrieve WebFinger Documents",
+   "author" : [
+      "Nils Diewald"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-WebFinger",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojolicious" : "3.94",
+            "Mojolicious::Plugin::HostMeta" : "0.08",
+            "Mojolicious::Plugin::Util::Callback" : "0.02",
+            "Mojolicious::Plugin::Util::Endpoint" : "0.13",
+            "Mojolicious::Plugin::XRD" : "0.05",
+            "XML::Loy" : "0.16",
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/artistic-license-2.0"
+      ],
+      "repository" : {
+         "url" : "https://github.com/Akron/Mojolicious-Plugin-WebFinger"
+      }
+   },
+   "version" : "0.03"
+}
