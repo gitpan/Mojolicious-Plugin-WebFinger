@@ -4,7 +4,7 @@
       "Nils Diewald"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -33,11 +33,11 @@
       "runtime" : {
          "requires" : {
             "Mojolicious" : "3.94",
-            "Mojolicious::Plugin::HostMeta" : "0.08",
-            "Mojolicious::Plugin::Util::Callback" : "0.02",
-            "Mojolicious::Plugin::Util::Endpoint" : "0.13",
-            "Mojolicious::Plugin::XRD" : "0.05",
-            "XML::Loy" : "0.16",
+            "Mojolicious::Plugin::HostMeta" : "0.09",
+            "Mojolicious::Plugin::Util::Callback" : "0.03",
+            "Mojolicious::Plugin::Util::Endpoint" : "0.15",
+            "Mojolicious::Plugin::XRD" : "0.06",
+            "XML::Loy" : "0.18",
             "perl" : "5.010001"
          }
       }
@@ -51,5 +51,5 @@
          "url" : "https://github.com/Akron/Mojolicious-Plugin-WebFinger"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
