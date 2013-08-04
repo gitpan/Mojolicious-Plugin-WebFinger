@@ -32,12 +32,12 @@
       },
       "runtime" : {
          "requires" : {
-            "Mojolicious" : "3.94",
+            "Mojolicious" : "4.23",
             "Mojolicious::Plugin::HostMeta" : "0.09",
             "Mojolicious::Plugin::Util::Callback" : "0.03",
             "Mojolicious::Plugin::Util::Endpoint" : "0.15",
             "Mojolicious::Plugin::XRD" : "0.06",
-            "XML::Loy" : "0.18",
+            "XML::Loy" : "0.19",
             "perl" : "5.010001"
          }
       }
@@ -51,5 +51,5 @@
          "url" : "https://github.com/Akron/Mojolicious-Plugin-WebFinger"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
